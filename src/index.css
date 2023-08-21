@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+	@apply px-4;
+	@apply cursor-pointer
+
+}
+
+
+@font-face{
+	font-family: "dancing";
+	src: url('../public/DancingScript-VariableFont_wght.ttf')
+}
+.dancing {
+	font-family: dancing;
+}
+
+@font-face{
+	font-family: "pacifico";
+	src: url('../public/Pacifico-Regular.ttf')
+}
+.pacifico {
+	font-family: pacifico;
+}
+
+@font-face{
+	font-family: "roboto";
+	src: url('../public/RobotoSlab-VariableFont_wght.ttf')
+}
+.roboto {
+	font-family: roboto;
+}
+
+@font-face{
+	font-family: "raleway";
+	src: url('../public/Raleway-VariableFont_wght.ttf')
+}
+.raleway {
+	font-family: "raleway";
+}
+
+.App{
+	width: 25rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.Card {
+	
+	padding: 1rem 1rem;
+	
+}
+
+.Card p {
+	padding-top: 1rem;
+	line-height: 100%;
+	color: white;
+	
+}
+.expand{
+	width: 18rem;
+}
