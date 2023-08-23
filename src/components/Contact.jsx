@@ -60,12 +60,14 @@ function Contact() {
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
           rows={8}
           placeholder="Message"
+          required
         ></textarea>
         <button className="dark:text-white bg-black dark:bg-gray-900 text-gray-50 border-2 dark:hover:bg-teal-500 dark:hover:border-red-600 px-4 py-3 my-8 mx-auto flex items-center">
           <m.p animate={animation}>Let's Collaborate</m.p>
