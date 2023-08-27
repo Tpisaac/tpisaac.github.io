@@ -17,7 +17,7 @@ function TransitionalPage() {
           Layout="isOpen"
           className="text-gray-50 dark:text-gray-900  roboto font-semibold"
         >
-          Page Transitions
+          Puma-clone Page
         </m.h2>
         <AnimatePresence>
           {isOpen && (
@@ -29,8 +29,7 @@ function TransitionalPage() {
               className="expand sm:w-60 text-white"
             >
               <p className=" dark:text-gray-900 raleway">
-                Motion from Framer-motion was used to make the page
-                transitional.
+                This Puma website is fully responsive with latest Ui/UX designs.
               </p>
               <p className=" dark:text-gray-900 raleway">
                 The buttons below are snippets from the codebase that showcase
@@ -40,7 +39,7 @@ function TransitionalPage() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://tpisaac.com/t-page/"
+                    href="https://tpisaac.com/puma-website/"
                     target="_blank"
                   >
                     Demo
