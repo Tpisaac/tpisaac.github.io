@@ -48,7 +48,7 @@ function TransitionalPage() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://github.com/Tpisaac/t-page"
+                    href="https://github.com/Tpisaac/puma-website"
                     target="_blank"
                   >
                     Code
