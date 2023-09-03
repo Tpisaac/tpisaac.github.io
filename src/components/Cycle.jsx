@@ -17,7 +17,7 @@ function Cycle() {
           Layout="isOpen"
           className="text-gray-50 dark:text-gray-900  roboto font-semibold"
         >
-          Shopping Cart
+          Crypto/defi App
         </m.h2>
         <AnimatePresence>
           {isOpen && (
@@ -29,8 +29,8 @@ function Cycle() {
               className="expand sm:w-60 text-white"
             >
               <p className=" dark:text-gray-900 raleway">
-                This is a fully responsive Shopping-Cart page. Built with
-                React.js, CSS/Tailwind.
+                This is a fully responsive Cryptocurrency page, with live coins
+                market data using coingecko api.
               </p>
               <p className=" dark:text-gray-900 raleway">
                 The buttons below are snippets from the codebase that showcase
@@ -40,7 +40,7 @@ function Cycle() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://tpisaac.com/shopping-cart"
+                    href="https://tpisaac.com/defi-app/"
                     target="_blank"
                   >
                     Demo
@@ -49,7 +49,7 @@ function Cycle() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://github.com/Tpisaac/shopping-cart"
+                    href="https://github.com/Tpisaac/defi-app"
                     target="_blank"
                   >
                     Code

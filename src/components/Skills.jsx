@@ -86,7 +86,7 @@ function Skills() {
               Git/Github
             </p>
             <p className="text-gray-800 py-1 roboto dark:text-gray-50 dark:hover:text-gray-100">
-              REST API
+              APIs
             </p>
             <p className="text-gray-800 py-1 roboto dark:text-gray-50 dark:hover:text-gray-100">
               VScode
