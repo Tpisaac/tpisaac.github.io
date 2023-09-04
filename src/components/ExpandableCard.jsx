@@ -17,7 +17,7 @@ function ExpandableCard() {
           Layout="isOpen"
           className="text-gray-50 dark:text-gray-900  roboto font-semibold"
         >
-          Bank App
+          Todo App
         </m.h2>
         <AnimatePresence>
           {isOpen && (
@@ -29,8 +29,8 @@ function ExpandableCard() {
               className="expand sm:w-60 text-white"
             >
               <p className=" dark:text-gray-900 raleway">
-                This is a fully responsive bank app with modern UI/UX. Built
-                with React, CSS/Tailwind & JS.
+                This is a React Todo App With Firebase backend and CRUD
+                Functionality.
               </p>
               <p className=" dark:text-gray-900 raleway">
                 The buttons below are snippets from the codebase that showcase
@@ -40,7 +40,7 @@ function ExpandableCard() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://tpisaac.com/bank-app/"
+                    href="https://tpisaac.com/todo-app/"
                     target="_blank"
                   >
                     Demo
@@ -49,7 +49,7 @@ function ExpandableCard() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://github.com/Tpisaac/bank-app"
+                    href="https://github.com/Tpisaac/todo-app"
                     target="_blank"
                   >
                     Code
