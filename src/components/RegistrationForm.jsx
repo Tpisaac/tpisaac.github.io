@@ -17,7 +17,7 @@ function RegistrationForm() {
           Layout="isOpen"
           className="text-gray-50 dark:text-gray-900  roboto font-semibold"
         >
-          Registration Form
+          Netflix-app clone
         </m.h2>
         <AnimatePresence>
           {isOpen && (
@@ -29,8 +29,8 @@ function RegistrationForm() {
               className="expand sm:w-60  text-white"
             >
               <p className=" dark:text-gray-900 raleway">
-                This registration form was built with just HTML and CSS; it's
-                fully responsive and neat.
+                This is Netflix app clone built with React JS and Tailwind CSS
+                with a firbase backend to store user email and saved movies.
               </p>
               <p className=" dark:text-gray-900 raleway">
                 The buttons below are snippets from the codebase that showcase
@@ -40,7 +40,7 @@ function RegistrationForm() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://tpisaac.com/reg-form/"
+                    href="https://tpisaac.com/netflix-app/"
                     target="_blank"
                   >
                     Demo
@@ -49,7 +49,7 @@ function RegistrationForm() {
                 <button>
                   <a
                     className=" bg-gray-900 raleway rounded-md dark:hover:bg-teal-400 dark:hover:border-white text-white dark:text-gray-50 border-2 px-8 py-1 mt-6 flex text-center"
-                    href="https://github.com/Tpisaac/reg-form"
+                    href="https://github.com/Tpisaac/netflix-app"
                     target="_blank"
                   >
                     Code
